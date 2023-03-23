@@ -1,0 +1,112 @@
+
+
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+h1,h2,h3,h4,h5{
+    font-family: $font-family2;
+    color: $heading;
+    font-weight: weight(bold);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+h6{
+    color: $button-text;
+    font-family: $font-family2;
+    font-weight: weight(regular);
+    font-size: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+h2,h3,h4,h5{
+    font-size: 20px;
+
+}
+
+p{
+    font-family: $font-family1;
+    color: $paragraph;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    font-weight: weight(regular);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    // padding-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: $button-text;
+}
+
+.bg-pink{
+    color: $button-text;
+    background: $button;
+    padding: 12px 40px;
+    margin: auto;
+    display: block;
+    max-width: 240px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: $font-family1;
+    font-size: 12px;
+    font-weight: weight(bolder);
+    &:hover{
+        opacity: 0.65;
+         cursor: pointer;
+     }
+}
+
+.illustration{
+    width: 88%;
+    max-width: 150%;
+    margin: auto;
+    display: block;
+    padding-top: 55px;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 26px;
+    width: 100%;
+    p{
+        text-align: left;
+        color: $button-text;
+    }
+}
+
+.body{
+    width: 90%;
+    height: auto;
+    margin: 20px auto 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 20px rgba($color: #000000, $alpha: 0.1);
+
+    p, span{
+        width: 87%;
+        letter-spacing: -0.7px;
+        line-height: 1.35rem;
+        padding-bottom: 30px;
+    }
+    
+}
+
